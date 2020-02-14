@@ -147,7 +147,7 @@ public class PlayerCharacterController : MonoBehaviour
     private void HandleHookshotThrow()
     {
         hookshotTransform.LookAt(hookshotPosition);
-        float hookshotThrownSPeed = 60f;
+        float hookshotThrownSPeed = 420f;
         hookshotSize += hookshotThrownSPeed * Time.deltaTime;
         hookshotTransform.localScale = new Vector3(1, 1, hookshotSize);
 
@@ -178,6 +178,11 @@ public class PlayerCharacterController : MonoBehaviour
             //reached hookshot position
             StopHookshot();
 
+        }
+
+        if (hookshotSize>150f)
+        {
+            StopHookshot();
         }
 
         if (TestInputDownHookShot())
