@@ -18,6 +18,7 @@ public class PlayerCharacterController : MonoBehaviour
     private State state;
     private Vector3 hookshotPosition;
     private float hookshotSize;
+    private bool unhookable;
 
 
     private enum State
@@ -98,7 +99,7 @@ public class PlayerCharacterController : MonoBehaviour
         }
 
         //Apply gracity to the velocity
-        float gravityDownForce = -60f;
+        float gravityDownForce = -55f;
         characterVelocityY += gravityDownForce * Time.deltaTime;
 
         //Apply Y velocity to move vector 
@@ -132,14 +133,16 @@ public class PlayerCharacterController : MonoBehaviour
     {
         if (TestInputDownHookShot())
         {
-            if(Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out RaycastHit raycastHit))
+            if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out RaycastHit raycastHit))
             {
                 debugHitPointTransform.position = raycastHit.point;
                 hookshotPosition = raycastHit.point;
                 hookshotSize = 0f;
                 hookshotTransform.gameObject.SetActive(true);
                 hookshotTransform.localScale = Vector3.zero;
+                unhookable = raycastHit.transform.CompareTag("unhookable") ? true : false;
                 state = State.HookshotThrown;
+
             }
         }
     }
@@ -154,6 +157,11 @@ public class PlayerCharacterController : MonoBehaviour
         if (hookshotSize >= Vector3.Distance(transform.position, hookshotPosition))
         {
             state = State.HookshotFlyingPlayer;
+            if (unhookable == true || hookshotSize > 150f)
+            {
+                //if target not hookable or over 150 unit long, cancel hook movement
+                StopHookshot();
+            }
         }
     }
 
@@ -170,9 +178,9 @@ public class PlayerCharacterController : MonoBehaviour
 
         //Move character Controller
         characterController.Move(hookshotDir * hookshotSpeed * hookshotSpeedMutiplier * Time.deltaTime);
+        hookshotSize -= hookshotSpeed * hookshotSpeedMutiplier * Time.deltaTime;
 
-
-        float reachedHookshotPositionDistance = 1f;
+        float reachedHookshotPositionDistance = 2f;
         if (Vector3.Distance(transform.position, hookshotPosition) <= reachedHookshotPositionDistance)
         {
             //reached hookshot position
@@ -180,16 +188,10 @@ public class PlayerCharacterController : MonoBehaviour
 
         }
 
-        if (hookshotSize>150f)
-        {
-            StopHookshot();
-        }
-
         if (TestInputDownHookShot())
         {
             //Cancel hookshot
             StopHookshot();
-
         }
 
         if (TestInputJump())
@@ -200,7 +202,6 @@ public class PlayerCharacterController : MonoBehaviour
             float jumpSpeed = 40f;
             characterVelocityMomentum += Vector3.up * jumpSpeed;
             StopHookshot();
-
         }
 
     }
