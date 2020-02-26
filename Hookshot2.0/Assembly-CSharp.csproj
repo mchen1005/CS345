@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCharacterController.cs" />
+    <Compile Include="Assets\Sounding.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/mhche/Desktop/Hook3.0/CS345/Hookshot2.0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

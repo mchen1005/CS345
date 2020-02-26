@@ -9,7 +9,6 @@ public class PlayerCharacterController : MonoBehaviour
     [SerializeField] private Transform debugHitPointTransform;
     [SerializeField] private Transform hookshotTransform;
 
-
     private CharacterController characterController;
     private float cameraVerticalAngle;
     private float characterVelocityY;
@@ -19,7 +18,6 @@ public class PlayerCharacterController : MonoBehaviour
     private Vector3 hookshotPosition;
     private float hookshotSize;
     private bool unhookable;
-
 
     private enum State
     {
@@ -91,6 +89,11 @@ public class PlayerCharacterController : MonoBehaviour
         {
             characterVelocityY = 0f;
 
+ //           if (characterController.velocity.magnitude > 2f)
+ //           {
+ //              sound.PlayFootStep();
+ //           }
+
             if (TestInputJump())
             {
                 float jumpSpeed = 30f;
@@ -135,6 +138,10 @@ public class PlayerCharacterController : MonoBehaviour
         {
             if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out RaycastHit raycastHit))
             {
+                if ( raycastHit.transform.CompareTag("Player"))
+                {
+                    return;
+                }
                 debugHitPointTransform.position = raycastHit.point;
                 hookshotPosition = raycastHit.point;
                 hookshotSize = 0f;
@@ -142,7 +149,6 @@ public class PlayerCharacterController : MonoBehaviour
                 hookshotTransform.localScale = Vector3.zero;
                 unhookable = raycastHit.transform.CompareTag("unhookable") ? true : false;
                 state = State.HookshotThrown;
-
             }
         }
     }
