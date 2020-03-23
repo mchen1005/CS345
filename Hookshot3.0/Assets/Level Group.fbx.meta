@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 8e0b4292b2f96d145a3009f8bb5cfdc2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 'Tall Wall '
+    100004: Tall Wall  1
+    100006: Tall Wall  10
+    100008: Tall Wall  11
+    100010: Tall Wall  12
+    100012: Tall Wall  13
+    100014: Tall Wall  14
+    100016: Tall Wall  15
+    100018: Tall Wall  16
+    100020: Tall Wall  17
+    100022: Tall Wall  18
+    100024: Tall Wall  19
+    100026: Tall Wall  2
+    100028: Tall Wall  20
+    100030: Tall Wall  21
+    100032: Tall Wall  22
+    100034: Tall Wall  23
+    100036: Tall Wall  24
+    100038: Tall Wall  25
+    100040: Tall Wall  26
+    100042: Tall Wall  27
+    100044: Tall Wall  28
+    100046: Tall Wall  29
+    100048: Tall Wall  3
+    100050: Tall Wall  30
+    100052: Tall Wall  31
+    100054: Tall Wall  32
+    100056: Tall Wall  33
+    100058: Tall Wall  34
+    100060: Tall Wall  35
+    100062: Tall Wall  36
+    100064: Tall Wall  37
+    100066: Tall Wall  38
+    100068: Tall Wall  39
+    100070: Tall Wall  4
+    100072: Tall Wall  40
+    100074: Tall Wall  41
+    100076: Tall Wall  42
+    100078: Tall Wall  43
+    100080: Tall Wall  44
+    100082: Tall Wall  45
+    100084: Tall Wall  46
+    100086: Tall Wall  47
+    100088: Tall Wall  48
+    100090: Tall Wall  49
+    100092: Tall Wall  5
+    100094: Tall Wall  50
+    100096: Tall Wall  51
+    100098: Tall Wall  52
+    100100: Tall Wall  53
+    100102: Tall Wall  54
+    100104: Tall Wall  55
+    100106: Tall Wall  6
+    100108: Tall Wall  7
+    100110: Tall Wall  8
+    100112: Tall Wall  9
+    400000: //RootNode
+    400002: 'Tall Wall '
+    400004: Tall Wall  1
+    400006: Tall Wall  10
+    400008: Tall Wall  11
+    400010: Tall Wall  12
+    400012: Tall Wall  13
+    400014: Tall Wall  14
+    400016: Tall Wall  15
+    400018: Tall Wall  16
+    400020: Tall Wall  17
+    400022: Tall Wall  18
+    400024: Tall Wall  19
+    400026: Tall Wall  2
+    400028: Tall Wall  20
+    400030: Tall Wall  21
+    400032: Tall Wall  22
+    400034: Tall Wall  23
+    400036: Tall Wall  24
+    400038: Tall Wall  25
+    400040: Tall Wall  26
+    400042: Tall Wall  27
+    400044: Tall Wall  28
+    400046: Tall Wall  29
+    400048: Tall Wall  3
+    400050: Tall Wall  30
+    400052: Tall Wall  31
+    400054: Tall Wall  32
+    400056: Tall Wall  33
+    400058: Tall Wall  34
+    400060: Tall Wall  35
+    400062: Tall Wall  36
+    400064: Tall Wall  37
+    400066: Tall Wall  38
+    400068: Tall Wall  39
+    400070: Tall Wall  4
+    400072: Tall Wall  40
+    400074: Tall Wall  41
+    400076: Tall Wall  42
+    400078: Tall Wall  43
+    400080: Tall Wall  44
+    400082: Tall Wall  45
+    400084: Tall Wall  46
+    400086: Tall Wall  47
+    400088: Tall Wall  48
+    400090: Tall Wall  49
+    400092: Tall Wall  5
+    400094: Tall Wall  50
+    400096: Tall Wall  51
+    400098: Tall Wall  52
+    400100: Tall Wall  53
+    400102: Tall Wall  54
+    400104: Tall Wall  55
+    400106: Tall Wall  6
+    400108: Tall Wall  7
+    400110: Tall Wall  8
+    400112: Tall Wall  9
+    2100000: New Material1
+    2100002: Default-Material1
+    2100004: Structural_Surfaces_02
+    2100006: Floor1
+    2300000: 'Tall Wall '
+    2300002: Tall Wall  1
+    2300004: Tall Wall  10
+    2300006: Tall Wall  11
+    2300008: Tall Wall  12
+    2300010: Tall Wall  13
+    2300012: Tall Wall  14
+    2300014: Tall Wall  15
+    2300016: Tall Wall  16
+    2300018: Tall Wall  17
+    2300020: Tall Wall  18
+    2300022: Tall Wall  19
+    2300024: Tall Wall  2
+    2300026: Tall Wall  20
+    2300028: Tall Wall  21
+    2300030: Tall Wall  22
+    2300032: Tall Wall  23
+    2300034: Tall Wall  24
+    2300036: Tall Wall  25
+    2300038: Tall Wall  26
+    2300040: Tall Wall  27
+    2300042: Tall Wall  28
+    2300044: Tall Wall  29
+    2300046: Tall Wall  3
+    2300048: Tall Wall  30
+    2300050: Tall Wall  31
+    2300052: Tall Wall  32
+    2300054: Tall Wall  33
+    2300056: Tall Wall  34
+    2300058: Tall Wall  35
+    2300060: Tall Wall  36
+    2300062: Tall Wall  37
+    2300064: Tall Wall  38
+    2300066: Tall Wall  39
+    2300068: Tall Wall  4
+    2300070: Tall Wall  40
+    2300072: Tall Wall  41
+    2300074: Tall Wall  42
+    2300076: Tall Wall  43
+    2300078: Tall Wall  44
+    2300080: Tall Wall  45
+    2300082: Tall Wall  46
+    2300084: Tall Wall  47
+    2300086: Tall Wall  48
+    2300088: Tall Wall  49
+    2300090: Tall Wall  5
+    2300092: Tall Wall  50
+    2300094: Tall Wall  51
+    2300096: Tall Wall  52
+    2300098: Tall Wall  53
+    2300100: Tall Wall  54
+    2300102: Tall Wall  55
+    2300104: Tall Wall  6
+    2300106: Tall Wall  7
+    2300108: Tall Wall  8
+    2300110: Tall Wall  9
+    3300000: 'Tall Wall '
+    3300002: Tall Wall  1
+    3300004: Tall Wall  10
+    3300006: Tall Wall  11
+    3300008: Tall Wall  12
+    3300010: Tall Wall  13
+    3300012: Tall Wall  14
+    3300014: Tall Wall  15
+    3300016: Tall Wall  16
+    3300018: Tall Wall  17
+    3300020: Tall Wall  18
+    3300022: Tall Wall  19
+    3300024: Tall Wall  2
+    3300026: Tall Wall  20
+    3300028: Tall Wall  21
+    3300030: Tall Wall  22
+    3300032: Tall Wall  23
+    3300034: Tall Wall  24
+    3300036: Tall Wall  25
+    3300038: Tall Wall  26
+    3300040: Tall Wall  27
+    3300042: Tall Wall  28
+    3300044: Tall Wall  29
+    3300046: Tall Wall  3
+    3300048: Tall Wall  30
+    3300050: Tall Wall  31
+    3300052: Tall Wall  32
+    3300054: Tall Wall  33
+    3300056: Tall Wall  34
+    3300058: Tall Wall  35
+    3300060: Tall Wall  36
+    3300062: Tall Wall  37
+    3300064: Tall Wall  38
+    3300066: Tall Wall  39
+    3300068: Tall Wall  4
+    3300070: Tall Wall  40
+    3300072: Tall Wall  41
+    3300074: Tall Wall  42
+    3300076: Tall Wall  43
+    3300078: Tall Wall  44
+    3300080: Tall Wall  45
+    3300082: Tall Wall  46
+    3300084: Tall Wall  47
+    3300086: Tall Wall  48
+    3300088: Tall Wall  49
+    3300090: Tall Wall  5
+    3300092: Tall Wall  50
+    3300094: Tall Wall  51
+    3300096: Tall Wall  52
+    3300098: Tall Wall  53
+    3300100: Tall Wall  54
+    3300102: Tall Wall  55
+    3300104: Tall Wall  6
+    3300106: Tall Wall  7
+    3300108: Tall Wall  8
+    3300110: Tall Wall  9
+    4300000: 'Tall Wall '
+    4300002: 'Tall Wall '
+    4300004: 'Tall Wall '
+    4300006: 'Tall Wall '
+    4300008: 'Tall Wall '
+    4300010: 'Tall Wall '
+    4300012: 'Tall Wall '
+    4300014: 'Tall Wall '
+    4300016: 'Tall Wall '
+    4300018: 'Tall Wall '
+    4300020: 'Tall Wall '
+    4300022: 'Tall Wall '
+    4300024: 'Tall Wall '
+    4300026: 'Tall Wall '
+    4300028: 'Tall Wall '
+    4300030: 'Tall Wall '
+    4300032: 'Tall Wall '
+    4300034: 'Tall Wall '
+    4300036: 'Tall Wall '
+    4300038: 'Tall Wall '
+    4300040: 'Tall Wall '
+    4300042: 'Tall Wall '
+    4300044: 'Tall Wall '
+    4300046: 'Tall Wall '
+    4300048: 'Tall Wall '
+    4300050: 'Tall Wall '
+    4300052: 'Tall Wall '
+    4300054: 'Tall Wall '
+    4300056: 'Tall Wall '
+    4300058: 'Tall Wall '
+    4300060: 'Tall Wall '
+    4300062: 'Tall Wall '
+    4300064: 'Tall Wall '
+    4300066: 'Tall Wall '
+    4300068: 'Tall Wall '
+    4300070: 'Tall Wall '
+    4300072: 'Tall Wall '
+    4300074: 'Tall Wall '
+    4300076: 'Tall Wall '
+    4300078: 'Tall Wall '
+    4300080: 'Tall Wall '
+    4300082: 'Tall Wall '
+    4300084: 'Tall Wall '
+    4300086: 'Tall Wall '
+    4300088: 'Tall Wall '
+    4300090: 'Tall Wall '
+    4300092: 'Tall Wall '
+    4300094: 'Tall Wall '
+    4300096: 'Tall Wall '
+    4300098: 'Tall Wall '
+    4300100: 'Tall Wall '
+    4300102: 'Tall Wall '
+    4300104: 'Tall Wall '
+    4300106: 'Tall Wall '
+    4300108: 'Tall Wall '
+    4300110: 'Tall Wall '
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
