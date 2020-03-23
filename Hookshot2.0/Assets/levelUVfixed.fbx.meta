@@ -1,8 +1,350 @@
 fileFormatVersion: 2
 guid: ef13e86017968d84ca15a4ce7fd4a96f
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 'Level_Group:Tall Wall '
+    100002: Level_Group:Tall Wall  1
+    100004: Level_Group:Tall Wall  10
+    100006: Level_Group:Tall Wall  11
+    100008: Level_Group:Tall Wall  12
+    100010: Level_Group:Tall Wall  13
+    100012: Level_Group:Tall Wall  14
+    100014: Level_Group:Tall Wall  15
+    100016: Level_Group:Tall Wall  16
+    100018: Level_Group:Tall Wall  17
+    100020: Level_Group:Tall Wall  18
+    100022: Level_Group:Tall Wall  19
+    100024: Level_Group:Tall Wall  2
+    100026: Level_Group:Tall Wall  20
+    100028: Level_Group:Tall Wall  21
+    100030: Level_Group:Tall Wall  22
+    100032: Level_Group:Tall Wall  23
+    100034: Level_Group:Tall Wall  24
+    100036: Level_Group:Tall Wall  25
+    100038: Level_Group:Tall Wall  26
+    100040: Level_Group:Tall Wall  27
+    100042: Level_Group:Tall Wall  28
+    100044: Level_Group:Tall Wall  29
+    100046: Level_Group:Tall Wall  3
+    100048: Level_Group:Tall Wall  30
+    100050: Level_Group:Tall Wall  31
+    100052: Level_Group:Tall Wall  32
+    100054: Level_Group:Tall Wall  33
+    100056: Level_Group:Tall Wall  34
+    100058: Level_Group:Tall Wall  35
+    100060: Level_Group:Tall Wall  36
+    100062: Level_Group:Tall Wall  37
+    100064: Level_Group:Tall Wall  38
+    100066: Level_Group:Tall Wall  39
+    100068: Level_Group:Tall Wall  4
+    100070: Level_Group:Tall Wall  40
+    100072: Level_Group:Tall Wall  41
+    100074: Level_Group:Tall Wall  42
+    100076: Level_Group:Tall Wall  43
+    100078: Level_Group:Tall Wall  44
+    100080: Level_Group:Tall Wall  45
+    100082: Level_Group:Tall Wall  46
+    100084: Level_Group:Tall Wall  47
+    100086: Level_Group:Tall Wall  48
+    100088: Level_Group:Tall Wall  49
+    100090: Level_Group:Tall Wall  5
+    100092: Level_Group:Tall Wall  50
+    100094: Level_Group:Tall Wall  51
+    100096: Level_Group:Tall Wall  52
+    100098: Level_Group:Tall Wall  53
+    100100: Level_Group:Tall Wall  54
+    100102: Level_Group:Tall Wall  55
+    100104: Level_Group:Tall Wall  6
+    100106: Level_Group:Tall Wall  7
+    100108: Level_Group:Tall Wall  8
+    100110: Level_Group:Tall Wall  9
+    100112: //RootNode
+    400000: 'Level_Group:Tall Wall '
+    400002: Level_Group:Tall Wall  1
+    400004: Level_Group:Tall Wall  10
+    400006: Level_Group:Tall Wall  11
+    400008: Level_Group:Tall Wall  12
+    400010: Level_Group:Tall Wall  13
+    400012: Level_Group:Tall Wall  14
+    400014: Level_Group:Tall Wall  15
+    400016: Level_Group:Tall Wall  16
+    400018: Level_Group:Tall Wall  17
+    400020: Level_Group:Tall Wall  18
+    400022: Level_Group:Tall Wall  19
+    400024: Level_Group:Tall Wall  2
+    400026: Level_Group:Tall Wall  20
+    400028: Level_Group:Tall Wall  21
+    400030: Level_Group:Tall Wall  22
+    400032: Level_Group:Tall Wall  23
+    400034: Level_Group:Tall Wall  24
+    400036: Level_Group:Tall Wall  25
+    400038: Level_Group:Tall Wall  26
+    400040: Level_Group:Tall Wall  27
+    400042: Level_Group:Tall Wall  28
+    400044: Level_Group:Tall Wall  29
+    400046: Level_Group:Tall Wall  3
+    400048: Level_Group:Tall Wall  30
+    400050: Level_Group:Tall Wall  31
+    400052: Level_Group:Tall Wall  32
+    400054: Level_Group:Tall Wall  33
+    400056: Level_Group:Tall Wall  34
+    400058: Level_Group:Tall Wall  35
+    400060: Level_Group:Tall Wall  36
+    400062: Level_Group:Tall Wall  37
+    400064: Level_Group:Tall Wall  38
+    400066: Level_Group:Tall Wall  39
+    400068: Level_Group:Tall Wall  4
+    400070: Level_Group:Tall Wall  40
+    400072: Level_Group:Tall Wall  41
+    400074: Level_Group:Tall Wall  42
+    400076: Level_Group:Tall Wall  43
+    400078: Level_Group:Tall Wall  44
+    400080: Level_Group:Tall Wall  45
+    400082: Level_Group:Tall Wall  46
+    400084: Level_Group:Tall Wall  47
+    400086: Level_Group:Tall Wall  48
+    400088: Level_Group:Tall Wall  49
+    400090: Level_Group:Tall Wall  5
+    400092: Level_Group:Tall Wall  50
+    400094: Level_Group:Tall Wall  51
+    400096: Level_Group:Tall Wall  52
+    400098: Level_Group:Tall Wall  53
+    400100: Level_Group:Tall Wall  54
+    400102: Level_Group:Tall Wall  55
+    400104: Level_Group:Tall Wall  6
+    400106: Level_Group:Tall Wall  7
+    400108: Level_Group:Tall Wall  8
+    400110: Level_Group:Tall Wall  9
+    400112: //RootNode
+    2100000: Level_Group_New Material1
+    2100002: Level_Group_Default-Material1
+    2100004: Level_Group_Structural_Surfaces_02
+    2100006: Level_Group_Floor1
+    2300000: 'Level_Group:Tall Wall '
+    2300002: Level_Group:Tall Wall  1
+    2300004: Level_Group:Tall Wall  10
+    2300006: Level_Group:Tall Wall  11
+    2300008: Level_Group:Tall Wall  12
+    2300010: Level_Group:Tall Wall  13
+    2300012: Level_Group:Tall Wall  14
+    2300014: Level_Group:Tall Wall  15
+    2300016: Level_Group:Tall Wall  16
+    2300018: Level_Group:Tall Wall  17
+    2300020: Level_Group:Tall Wall  18
+    2300022: Level_Group:Tall Wall  19
+    2300024: Level_Group:Tall Wall  2
+    2300026: Level_Group:Tall Wall  20
+    2300028: Level_Group:Tall Wall  21
+    2300030: Level_Group:Tall Wall  22
+    2300032: Level_Group:Tall Wall  23
+    2300034: Level_Group:Tall Wall  24
+    2300036: Level_Group:Tall Wall  25
+    2300038: Level_Group:Tall Wall  26
+    2300040: Level_Group:Tall Wall  27
+    2300042: Level_Group:Tall Wall  28
+    2300044: Level_Group:Tall Wall  29
+    2300046: Level_Group:Tall Wall  3
+    2300048: Level_Group:Tall Wall  30
+    2300050: Level_Group:Tall Wall  31
+    2300052: Level_Group:Tall Wall  32
+    2300054: Level_Group:Tall Wall  33
+    2300056: Level_Group:Tall Wall  34
+    2300058: Level_Group:Tall Wall  35
+    2300060: Level_Group:Tall Wall  36
+    2300062: Level_Group:Tall Wall  37
+    2300064: Level_Group:Tall Wall  38
+    2300066: Level_Group:Tall Wall  39
+    2300068: Level_Group:Tall Wall  4
+    2300070: Level_Group:Tall Wall  40
+    2300072: Level_Group:Tall Wall  41
+    2300074: Level_Group:Tall Wall  42
+    2300076: Level_Group:Tall Wall  43
+    2300078: Level_Group:Tall Wall  44
+    2300080: Level_Group:Tall Wall  45
+    2300082: Level_Group:Tall Wall  46
+    2300084: Level_Group:Tall Wall  47
+    2300086: Level_Group:Tall Wall  48
+    2300088: Level_Group:Tall Wall  49
+    2300090: Level_Group:Tall Wall  5
+    2300092: Level_Group:Tall Wall  50
+    2300094: Level_Group:Tall Wall  51
+    2300096: Level_Group:Tall Wall  52
+    2300098: Level_Group:Tall Wall  53
+    2300100: Level_Group:Tall Wall  54
+    2300102: Level_Group:Tall Wall  55
+    2300104: Level_Group:Tall Wall  6
+    2300106: Level_Group:Tall Wall  7
+    2300108: Level_Group:Tall Wall  8
+    2300110: Level_Group:Tall Wall  9
+    3300000: 'Level_Group:Tall Wall '
+    3300002: Level_Group:Tall Wall  1
+    3300004: Level_Group:Tall Wall  10
+    3300006: Level_Group:Tall Wall  11
+    3300008: Level_Group:Tall Wall  12
+    3300010: Level_Group:Tall Wall  13
+    3300012: Level_Group:Tall Wall  14
+    3300014: Level_Group:Tall Wall  15
+    3300016: Level_Group:Tall Wall  16
+    3300018: Level_Group:Tall Wall  17
+    3300020: Level_Group:Tall Wall  18
+    3300022: Level_Group:Tall Wall  19
+    3300024: Level_Group:Tall Wall  2
+    3300026: Level_Group:Tall Wall  20
+    3300028: Level_Group:Tall Wall  21
+    3300030: Level_Group:Tall Wall  22
+    3300032: Level_Group:Tall Wall  23
+    3300034: Level_Group:Tall Wall  24
+    3300036: Level_Group:Tall Wall  25
+    3300038: Level_Group:Tall Wall  26
+    3300040: Level_Group:Tall Wall  27
+    3300042: Level_Group:Tall Wall  28
+    3300044: Level_Group:Tall Wall  29
+    3300046: Level_Group:Tall Wall  3
+    3300048: Level_Group:Tall Wall  30
+    3300050: Level_Group:Tall Wall  31
+    3300052: Level_Group:Tall Wall  32
+    3300054: Level_Group:Tall Wall  33
+    3300056: Level_Group:Tall Wall  34
+    3300058: Level_Group:Tall Wall  35
+    3300060: Level_Group:Tall Wall  36
+    3300062: Level_Group:Tall Wall  37
+    3300064: Level_Group:Tall Wall  38
+    3300066: Level_Group:Tall Wall  39
+    3300068: Level_Group:Tall Wall  4
+    3300070: Level_Group:Tall Wall  40
+    3300072: Level_Group:Tall Wall  41
+    3300074: Level_Group:Tall Wall  42
+    3300076: Level_Group:Tall Wall  43
+    3300078: Level_Group:Tall Wall  44
+    3300080: Level_Group:Tall Wall  45
+    3300082: Level_Group:Tall Wall  46
+    3300084: Level_Group:Tall Wall  47
+    3300086: Level_Group:Tall Wall  48
+    3300088: Level_Group:Tall Wall  49
+    3300090: Level_Group:Tall Wall  5
+    3300092: Level_Group:Tall Wall  50
+    3300094: Level_Group:Tall Wall  51
+    3300096: Level_Group:Tall Wall  52
+    3300098: Level_Group:Tall Wall  53
+    3300100: Level_Group:Tall Wall  54
+    3300102: Level_Group:Tall Wall  55
+    3300104: Level_Group:Tall Wall  6
+    3300106: Level_Group:Tall Wall  7
+    3300108: Level_Group:Tall Wall  8
+    3300110: Level_Group:Tall Wall  9
+    4300000: 'Level_Group:Tall Wall '
+    4300002: 'Level_Group:Tall Wall '
+    4300004: 'Level_Group:Tall Wall '
+    4300006: 'Level_Group:Tall Wall '
+    4300008: 'Level_Group:Tall Wall '
+    4300010: 'Level_Group:Tall Wall '
+    4300012: 'Level_Group:Tall Wall '
+    4300014: 'Level_Group:Tall Wall '
+    4300016: 'Level_Group:Tall Wall '
+    4300018: 'Level_Group:Tall Wall '
+    4300020: 'Level_Group:Tall Wall '
+    4300022: 'Level_Group:Tall Wall '
+    4300024: 'Level_Group:Tall Wall '
+    4300026: 'Level_Group:Tall Wall '
+    4300028: 'Level_Group:Tall Wall '
+    4300030: 'Level_Group:Tall Wall '
+    4300032: 'Level_Group:Tall Wall '
+    4300034: 'Level_Group:Tall Wall '
+    4300036: 'Level_Group:Tall Wall '
+    4300038: 'Level_Group:Tall Wall '
+    4300040: 'Level_Group:Tall Wall '
+    4300042: 'Level_Group:Tall Wall '
+    4300044: 'Level_Group:Tall Wall '
+    4300046: 'Level_Group:Tall Wall '
+    4300048: 'Level_Group:Tall Wall '
+    4300050: 'Level_Group:Tall Wall '
+    4300052: 'Level_Group:Tall Wall '
+    4300054: 'Level_Group:Tall Wall '
+    4300056: 'Level_Group:Tall Wall '
+    4300058: 'Level_Group:Tall Wall '
+    4300060: 'Level_Group:Tall Wall '
+    4300062: 'Level_Group:Tall Wall '
+    4300064: 'Level_Group:Tall Wall '
+    4300066: 'Level_Group:Tall Wall '
+    4300068: 'Level_Group:Tall Wall '
+    4300070: 'Level_Group:Tall Wall '
+    4300072: 'Level_Group:Tall Wall '
+    4300074: 'Level_Group:Tall Wall '
+    4300076: 'Level_Group:Tall Wall '
+    4300078: 'Level_Group:Tall Wall '
+    4300080: 'Level_Group:Tall Wall '
+    4300082: 'Level_Group:Tall Wall '
+    4300084: 'Level_Group:Tall Wall '
+    4300086: 'Level_Group:Tall Wall '
+    4300088: 'Level_Group:Tall Wall '
+    4300090: 'Level_Group:Tall Wall '
+    4300092: 'Level_Group:Tall Wall '
+    4300094: 'Level_Group:Tall Wall '
+    4300096: 'Level_Group:Tall Wall '
+    4300098: 'Level_Group:Tall Wall '
+    4300100: 'Level_Group:Tall Wall '
+    4300102: 'Level_Group:Tall Wall '
+    4300104: 'Level_Group:Tall Wall '
+    4300106: 'Level_Group:Tall Wall '
+    4300108: 'Level_Group:Tall Wall '
+    4300110: 'Level_Group:Tall Wall '
+    6400000: 'Level_Group:Tall Wall '
+    6400002: Level_Group:Tall Wall  1
+    6400004: Level_Group:Tall Wall  10
+    6400006: Level_Group:Tall Wall  11
+    6400008: Level_Group:Tall Wall  12
+    6400010: Level_Group:Tall Wall  13
+    6400012: Level_Group:Tall Wall  14
+    6400014: Level_Group:Tall Wall  15
+    6400016: Level_Group:Tall Wall  16
+    6400018: Level_Group:Tall Wall  17
+    6400020: Level_Group:Tall Wall  18
+    6400022: Level_Group:Tall Wall  19
+    6400024: Level_Group:Tall Wall  2
+    6400026: Level_Group:Tall Wall  20
+    6400028: Level_Group:Tall Wall  21
+    6400030: Level_Group:Tall Wall  22
+    6400032: Level_Group:Tall Wall  23
+    6400034: Level_Group:Tall Wall  24
+    6400036: Level_Group:Tall Wall  25
+    6400038: Level_Group:Tall Wall  26
+    6400040: Level_Group:Tall Wall  27
+    6400042: Level_Group:Tall Wall  28
+    6400044: Level_Group:Tall Wall  29
+    6400046: Level_Group:Tall Wall  3
+    6400048: Level_Group:Tall Wall  30
+    6400050: Level_Group:Tall Wall  31
+    6400052: Level_Group:Tall Wall  32
+    6400054: Level_Group:Tall Wall  33
+    6400056: Level_Group:Tall Wall  34
+    6400058: Level_Group:Tall Wall  35
+    6400060: Level_Group:Tall Wall  36
+    6400062: Level_Group:Tall Wall  37
+    6400064: Level_Group:Tall Wall  38
+    6400066: Level_Group:Tall Wall  39
+    6400068: Level_Group:Tall Wall  4
+    6400070: Level_Group:Tall Wall  40
+    6400072: Level_Group:Tall Wall  41
+    6400074: Level_Group:Tall Wall  42
+    6400076: Level_Group:Tall Wall  43
+    6400078: Level_Group:Tall Wall  44
+    6400080: Level_Group:Tall Wall  45
+    6400082: Level_Group:Tall Wall  46
+    6400084: Level_Group:Tall Wall  47
+    6400086: Level_Group:Tall Wall  48
+    6400088: Level_Group:Tall Wall  49
+    6400090: Level_Group:Tall Wall  5
+    6400092: Level_Group:Tall Wall  50
+    6400094: Level_Group:Tall Wall  51
+    6400096: Level_Group:Tall Wall  52
+    6400098: Level_Group:Tall Wall  53
+    6400100: Level_Group:Tall Wall  54
+    6400102: Level_Group:Tall Wall  55
+    6400104: Level_Group:Tall Wall  6
+    6400106: Level_Group:Tall Wall  7
+    6400108: Level_Group:Tall Wall  8
+    6400110: Level_Group:Tall Wall  9
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -38,27 +380,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +407,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +420,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
